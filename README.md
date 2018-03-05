@@ -31,3 +31,8 @@ The first step you'll need to do in order to start building out your app is to f
 * Create an action creator you'll invoke after you receive the tweets from your API request.
 * Create an action creator you'll invoke after you receive the users from your API request.
 * Create an async action creator responsible for fetching the initial data of your app, then invoking your other action creators passing it that data.
+
+## Step 3: First Reducers
+
+* Create the reducers which are going to update the store based on the action creators you created in the last step.
+* Create a store and use react-redux's Provider component to put it on context.
