@@ -22,8 +22,6 @@ Just like we did in the Polls app, we're going to "mock" the database/server.
 * Get comfortable with the exports in `api.js` and `helpers.js`.
 * You'll use the `formatTweet` method as a format step between the structure of a tweet in the "database" and the structure of a Tweet in your Redux store.
 
-[Tyler](https://twitter.com/tylermcginnis)
-
 ## Step 2: First Actions
 The first step you'll need to do in order to start building out your app is to fetch the initial data your app needs to render the home view. Before you can do that, you'll need to set up the actions and action creators responsible for doing that.
 
@@ -114,3 +112,5 @@ Now, the last step is to dynamically render UI based on the URL. You can use Rea
 * Add in `Route`s so you only render certain components on certain paths.
 * Redirect to `/` after the user composes a new Tweet.
 * Navigate to the individual Tweet page when a user clicks on a Tweet.
+
+[Tyler](https://twitter.com/tylermcginnis)
