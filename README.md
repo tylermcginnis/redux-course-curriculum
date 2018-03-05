@@ -83,3 +83,12 @@ Now we want to be able to add a new Tweet.
 
 * Create the UI for a component which allows the user to input a new Tweet.
 * Render that component.
+
+<img src='https://user-images.githubusercontent.com/2933430/36965834-134fcf1a-2018-11e8-9928-91e5f45b0f0b.png' width='400' />
+
+## Step 11: Compose Tweet Logic
+Now that you have the UI for creating a new Tweet, the next step is adding in the logic.
+
+* Create your actions for handling adding a new Tweet. Remember the `saveTweet` method from your API.
+* Update your tweets reducer to handle the new actions you just built.
+* Dispatch your new action creator when a new Tweet is created.
