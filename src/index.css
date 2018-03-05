@@ -3,3 +3,88 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.center {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.tweet {
+  width: 100%;
+  max-width: 590px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tweet-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacky but less typing in the video */
+.tweet-info > div > span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.tweet-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+.tweet-info > div > div {
+  color: #969696;
+  font-size: 15px;
+}
+.tweet-info > div > p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.tweet-icons {
+  display: flex;
+  align-items: center;
+}
+.tweet-icons > span {
+  color: #969696;
+  margin: 0 15px 0 5px;
+  font-size: 18px !important;
+}
+.tweet-icon {
+  font-size: 27px;
+  color: #697784;
+}
+.tweet-icon:hover {
+  color: #00b5d6;
+  cursor: pointer;
+}
+.replying-to {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  color: #969696;
+  cursor: pointer;
+}
+
+.heart-button {
+  background: transparent;
+  border: none;
+}

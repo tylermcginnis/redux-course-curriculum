@@ -57,3 +57,10 @@ Now is time to start working on the UI
 * Render your new component in the main App.js file only once the data has been loaded.
 
 <img src='https://user-images.githubusercontent.com/2933430/36964134-ec8ee9e2-2012-11e8-9077-129200194da2.png' width="400" />
+
+## Step 7: Tweet UI
+Now instead of just rendering IDs, you want to render the full Tweet UI.
+
+* Build a Tweet component that takes in an ID, grabs that tweet (using the ID) from the store, and renders whatever UI you'd like.
+
+<img src='https://user-images.githubusercontent.com/2933430/36964638-84dff24e-2014-11e8-86c0-d916e55a2842.png' width='400px' />
