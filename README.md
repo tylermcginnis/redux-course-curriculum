@@ -77,3 +77,9 @@ Now that the UI is set up for liking a Tweet, you need to build out that functio
 * Build out the proper action creators you'll dispatch when a user likes a tweet.
 * Update your tweets reducer to handle the new actions you just created.
 * Dispatch your new action creator when a Tweet is liked.
+
+## Step 10: Compose Tweet UI
+Now we want to be able to add a new Tweet.
+
+* Create the UI for a component which allows the user to input a new Tweet.
+* Render that component.
