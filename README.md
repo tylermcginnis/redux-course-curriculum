@@ -92,3 +92,16 @@ Now that you have the UI for creating a new Tweet, the next step is adding in th
 * Create your actions for handling adding a new Tweet. Remember the `saveTweet` method from your API.
 * Update your tweets reducer to handle the new actions you just built.
 * Dispatch your new action creator when a new Tweet is created.
+
+## Step 12 : Tweet Page
+Now the only last view in our app we need is the individual Tweet page.
+
+* Create a new component which renders the proper UI in the image below. Remember you'll need to render any replies to that Tweet as well.
+
+Eventually you'll use React Router to render this route, for now, render it like this and you'll be able to grab `match.params.id` for the Tweet id just as React Router will give you.
+
+```js
+<TweetPage match={{params: {id: '8xf0y6ziyjabvozdd253nd'}}}/>
+```
+
+<img src='https://user-images.githubusercontent.com/2933430/36966017-9da4aed8-2018-11e8-936f-e3c82461647d.png' width='400' />
