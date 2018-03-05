@@ -42,3 +42,10 @@ In order for your async action creators (thunks) to work, you'll need to enable 
 
 * Build a logger middleware.
 * Enable your logger middleware and the redux-thunk middleware in your store.
+
+## Step 5: Initial Data
+Now that you have your action creators, reducers, and middleware set up, now you need to actually fetch your initial data.
+
+* Invoke your action creator which handles fetching the initial data.
+
+At this point, you should have no UI but you should have an authed user, the users, and the tweets in your store.
