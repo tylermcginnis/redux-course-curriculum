@@ -64,3 +64,9 @@ Now instead of just rendering IDs, you want to render the full Tweet UI.
 * Build a Tweet component that takes in an ID, grabs that tweet (using the ID) from the store, and renders whatever UI you'd like.
 
 <img src='https://user-images.githubusercontent.com/2933430/36964638-84dff24e-2014-11e8-86c0-d916e55a2842.png' width='400px' />
+
+## Step 8: Loading
+You don't just want to show a blank UI as your app loads.
+
+* Download the `react-redux-loading` library.
+* Hook up the loading state to your reducer and show a loading indicator as your app is loading.

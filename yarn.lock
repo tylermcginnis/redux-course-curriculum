@@ -5398,7 +5398,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.6.0:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -5567,6 +5567,12 @@ react-icons@^2.2.7:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-2.2.7.tgz#d7860826b258557510dac10680abea5ca23cf650"
   dependencies:
     react-icon-base "2.1.0"
+
+react-redux-loading@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-redux-loading/-/react-redux-loading-1.0.1.tgz#b03685c6c0304681b3097a27a3e6ee9b534fd699"
+  dependencies:
+    prop-types "^15.5.6"
 
 react-redux@^5.0.7:
   version "5.0.7"
