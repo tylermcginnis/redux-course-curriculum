@@ -23,3 +23,11 @@ Just like we did in the Polls app, we're going to "mock" the database/server.
 * You'll use the `formatTweet` method as a format step between the structure of a tweet in the "database" and the structure of a Tweet in your Redux store.
 
 [Tyler](https://twitter.com/tylermcginnis)
+
+## Step 2: First Actions
+The first step you'll need to do in order to start building out your app is to fetch the initial data your app needs to render the home view. Before you can do that, you'll need to set up the actions and action creators responsible for doing that.
+
+* Create an action creator responsible for setting the authenticated user (eventually set it to `tylermcginnis`, `sarah_edo`, or `dan_abramov`).
+* Create an action creator you'll invoke after you receive the tweets from your API request.
+* Create an action creator you'll invoke after you receive the users from your API request.
+* Create an async action creator responsible for fetching the initial data of your app, then invoking your other action creators passing it that data.
