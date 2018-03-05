@@ -49,3 +49,11 @@ Now that you have your action creators, reducers, and middleware set up, now you
 * Invoke your action creator which handles fetching the initial data.
 
 At this point, you should have no UI but you should have an authed user, the users, and the tweets in your store.
+
+## Step 6: Dashboard
+Now is time to start working on the UI
+
+* Create a new component that receives all the Tweet Ids from the store and renders them.
+* Render your new component in the main App.js file only once the data has been loaded.
+
+<img src='https://user-images.githubusercontent.com/2933430/36964134-ec8ee9e2-2012-11e8-9077-129200194da2.png' width="400" />
