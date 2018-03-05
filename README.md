@@ -36,3 +36,9 @@ The first step you'll need to do in order to start building out your app is to f
 
 * Create the reducers which are going to update the store based on the action creators you created in the last step.
 * Create a store and use react-redux's Provider component to put it on context.
+
+## Step 4: Middleware
+In order for your async action creators (thunks) to work, you'll need to enable them as middleware.
+
+* Build a logger middleware.
+* Enable your logger middleware and the redux-thunk middleware in your store.
