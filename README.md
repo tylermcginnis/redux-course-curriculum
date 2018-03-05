@@ -70,3 +70,10 @@ You don't just want to show a blank UI as your app loads.
 
 * Download the `react-redux-loading` library.
 * Hook up the loading state to your reducer and show a loading indicator as your app is loading.
+
+## Step 9: Like Tweet
+Now that the UI is set up for liking a Tweet, you need to build out that functionality.
+
+* Build out the proper action creators you'll dispatch when a user likes a tweet.
+* Update your tweets reducer to handle the new actions you just created.
+* Dispatch your new action creator when a Tweet is liked.
