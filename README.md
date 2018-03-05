@@ -105,3 +105,12 @@ Eventually you'll use React Router to render this route, for now, render it like
 ```
 
 <img src='https://user-images.githubusercontent.com/2933430/36966017-9da4aed8-2018-11e8-936f-e3c82461647d.png' width='400' />
+
+## Step 13: React Router
+Now, the last step is to dynamically render UI based on the URL. You can use React Router to do this.
+
+* install `react-router-dom`
+* Create a navbar you can render to navigate between views.
+* Add in `Route`s so you only render certain components on certain paths.
+* Redirect to `/` after the user composes a new Tweet.
+* Navigate to the individual Tweet page when a user clicks on a Tweet.

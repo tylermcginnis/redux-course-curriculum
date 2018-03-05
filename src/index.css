@@ -4,6 +4,17 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 .center {
   text-align: center;
 }
@@ -137,4 +148,15 @@ li {
   margin-top: 10px;
   font-size: 20px;
   color: #C3392A;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
 }
