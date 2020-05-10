@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { formatTweet, formatDate } from '../utils/helpers'
-import TiArrowBackOutline from 'react-icons/lib/ti/arrow-back-outline'
-import TiHeartOutline from 'react-icons/lib/ti/heart-outline'
-import TiHeartFullOutline from 'react-icons/lib/ti/heart-full-outline'
+import { TiArrowBackOutline } from 'react-icons/ti'
+import { TiHeartOutline } from 'react-icons/ti'
+import { TiHeartFullOutline} from 'react-icons/ti'
 
 class Tweet extends Component {
   handleLike = (e) => {
